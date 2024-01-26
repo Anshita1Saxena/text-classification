@@ -1,0 +1,12 @@
+Model parameters and accuracy after applying grid search on train and validation sets:
+{Lowercase:True, Punctuation:True, Stop words:True, Stemmer/Lemmatization:Lemmatizer, vectorizer:Bag_of_words, ngram_range:(1, 1), Model:BNB, Accuracy:0.91875, }
+Accuracy: 0.92
+Model parameters and accuracy after applying grid search on train and validation sets:
+{Lowercase:True, Punctuation:True, Stop words:True, Stemmer/Lemmatization:Porter Stemmer, vectorizer:Bag_of_words, ngram_range:(1, 2), Model:LR, Accuracy:0.925, }
+Accuracy: 0.925
+Model parameters and accuracy after applying grid search on train and validation sets:
+{Lowercase:True, Punctuation:True, Stop words:True, Stemmer/Lemmatization:Snowball Stemmer, vectorizer:Bag_of_words_tfidftransformer, ngram_range:(1, 2), Model:MNB, Accuracy:0.95625, }
+Accuracy: 0.9325
+Model parameters and accuracy after applying grid search on train and validation sets:
+{Lowercase:False, Punctuation:True, Stop words:True, Stemmer/Lemmatization:Snowball Stemmer, vectorizer:Bag_of_words_tfidftransformer, ngram_range:(1, 2), Model:SVM, Accuracy:0.93375, }
+Accuracy on test set: 0.9275

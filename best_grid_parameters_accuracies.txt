@@ -1,0 +1,12 @@
+Grid Search Accuracy: 0.92875
+Grid Search Parameters: {'clf__alpha': 0.01}
+Best model configuration before grid search: {Lowercase:True, Punctuation:True, Stop words:True, Stemmer/Lemmatization:Lemmatizer, vectorizer:Bag_of_words, ngram_range:(1, 1), Model:BNB, Accuracy:0.91875, }
+Grid Search Accuracy: 0.92125
+Grid Search Parameters: {'clf__C': 5, 'clf__max_iter': 100, 'clf__penalty': 'l2'}
+Best model configuration before grid search: {Lowercase:True, Punctuation:True, Stop words:True, Stemmer/Lemmatization:Porter Stemmer, vectorizer:Bag_of_words, ngram_range:(1, 2), Model:LR, Accuracy:0.925, }
+Grid Search Accuracy: 0.93875
+Grid Search Parameters: {'clf__alpha': 0.1}
+Best model configuration before grid search: {Lowercase:True, Punctuation:True, Stop words:True, Stemmer/Lemmatization:Snowball Stemmer, vectorizer:Bag_of_words_tfidftransformer, ngram_range:(1, 2), Model:MNB, Accuracy:0.95625, }
+Grid Search Accuracy: 0.9337500000000001
+Grid Search Parameters: {'clf__C': 1, 'clf__loss': 'hinge'}
+Best model configuration before grid search: {Lowercase:False, Punctuation:True, Stop words:True, Stemmer/Lemmatization:Snowball Stemmer, vectorizer:Bag_of_words_tfidftransformer, ngram_range:(1, 2), Model:SVM, Accuracy:0.93375, }
